@@ -1,0 +1,17 @@
+{
+  "name": "seo-meta",
+  "version": "1.0.0",
+  "type": "interface",
+  "entry": "./src/index.tsx",
+  "displayName": "SEO Meta Editor",
+  "description": "Edit SEO meta title & description with a live Google snippet preview.",
+  "icon": "search",
+  "author": { "name": "LumiBase Team", "email": "hello@lumibase.dev" },
+  "capabilities": [],
+  "config": [
+    { "key": "titleLimit", "type": "integer", "label": "Title char limit", "default": 60 },
+    { "key": "descLimit", "type": "integer", "label": "Description char limit", "default": 160 }
+  ],
+  "compatibleWith": "^0.6.0",
+  "fieldTypes": ["json", "string"]
+}

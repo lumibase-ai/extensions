@@ -1,0 +1,16 @@
+{
+  "name": "i18n-autotag",
+  "version": "1.0.0",
+  "type": "hook",
+  "entry": "./src/index.ts",
+  "displayName": "i18n Auto-Tag",
+  "description": "Tags content with detected translatable fields on save (demo hook).",
+  "icon": "languages",
+  "author": { "name": "LumiBase Team", "email": "hello@lumibase.dev" },
+  "capabilities": ["items:read"],
+  "config": [
+    { "key": "defaultLocale", "type": "string", "label": "Default locale", "default": "en" },
+    { "key": "locales", "type": "json", "label": "Enabled locales", "default": ["en", "vi", "ja"] }
+  ],
+  "compatibleWith": "^0.6.0"
+}

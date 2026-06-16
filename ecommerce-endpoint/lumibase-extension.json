@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "type": "endpoint",
+  "entry": "./src/index.ts",
+  "displayName": "E-Commerce Connect",
+  "description": "Mock product & inventory API mounted at /extensions/ecommerce.",
+  "icon": "shopping-cart",
+  "author": { "name": "LumiBase Team", "email": "hello@lumibase.dev" },
+  "capabilities": ["http:fetch"],
+  "config": [{ "key": "provider", "type": "string", "label": "Provider", "default": "shopify" }],
+  "compatibleWith": "^0.6.0"
+}

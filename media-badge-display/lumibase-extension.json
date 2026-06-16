@@ -1,0 +1,14 @@
+{
+  "name": "media-badge",
+  "version": "1.0.0",
+  "type": "display",
+  "entry": "./src/index.tsx",
+  "displayName": "Media Optimization Badge",
+  "description": "Shows format, optimization status and size savings for a media field.",
+  "icon": "image",
+  "author": { "name": "LumiBase Team", "email": "hello@lumibase.dev" },
+  "capabilities": [],
+  "config": [ { "key": "showSavings", "type": "boolean", "label": "Show size savings", "default": true } ],
+  "compatibleWith": "^0.6.0",
+  "fieldTypes": ["json", "string"]
+}

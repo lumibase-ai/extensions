@@ -1,0 +1,13 @@
+{
+  "name": "forms-builder",
+  "version": "1.0.0",
+  "type": "module",
+  "entry": "./src/index.tsx",
+  "displayName": "Form Builder",
+  "description": "A drag-style form builder page (UI demo; not yet persisted).",
+  "icon": "list-checks",
+  "author": { "name": "LumiBase Team", "email": "hello@lumibase.dev" },
+  "capabilities": [],
+  "config": [],
+  "compatibleWith": "^0.6.0"
+}

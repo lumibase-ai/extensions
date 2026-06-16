@@ -1,0 +1,16 @@
+{
+  "name": "analytics-panel",
+  "version": "1.0.0",
+  "type": "panel",
+  "entry": "./src/index.tsx",
+  "displayName": "Analytics Overview",
+  "description": "Dashboard panel showing pageviews, visitors and a 7-day trend (demo data).",
+  "icon": "bar-chart-3",
+  "author": { "name": "LumiBase Team", "email": "hello@lumibase.dev" },
+  "capabilities": [],
+  "config": [
+    { "key": "title", "type": "string", "label": "Panel title", "default": "Analytics Overview" },
+    { "key": "provider", "type": "string", "label": "Provider label", "default": "Plausible" }
+  ],
+  "compatibleWith": "^0.6.0"
+}
